@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('hero-background.jpg') center/cover no-repeat;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  .image-container img {
+    max-width: 100%; /* The image will not exceed the width of its parent container */
+    max-height: 350px; /* The image will not exceed this specified height */
+  }
+  .parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #features {
+    background-image: url('hidden-social-media-features-open-graph.jpg');
+    
+  }
+  
+  #contact {
+    background-image: url('download\ \(4\).jpeg');
+  }
+
+  .btn{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    background-color: rgb(2, 214, 55);
+    padding: 4px;
+    
+    
+  }
+  .btn:hover{
+    color: green;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #pricing {
+   text-align: center;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
